@@ -11,7 +11,7 @@ export default function WhaToDo() {
           <Heading as={"h3"} m="1" fontSize={"2rem"} fontFamily="cursive">
             bahan berkualitas
           </Heading>
-          <Text textAlign={"center"} fontSize="lg">
+          <Text textAlign={"center"} fontSize="sm">
             dimana kami sebagai tempat makan, pasti sangat menjaga kualitas dari
             makanan &amp; minuman kami. jadi jangan ragu dengan hasil makanan
             dan minumannya
@@ -24,7 +24,7 @@ export default function WhaToDo() {
           <Heading as={"h3"} m="1" fontSize={"2rem"} fontFamily="cursive">
             bahan berkualitas
           </Heading>
-          <Text textAlign={"center"} fontSize="lg">
+          <Text textAlign={"center"} fontSize="sm">
             kami menyediakan tempat yang sangat cozy untuk disinggahi dan sangat
             cocok untuk anak muda yang pecinta makanan dan minuman khas daerah
             sehingga para pelanggan nyaman berlama lama ditempat kami
@@ -37,7 +37,7 @@ export default function WhaToDo() {
           <Heading as={"h3"} m="1" fontSize={"2rem"} fontFamily="cursive">
             bahan berkualitas
           </Heading>
-          <Text textAlign={"center"} fontSize="lg">
+          <Text textAlign={"center"} fontSize="sm">
             tentu saja waroeng solo menyediakan berbagai macam makanan dan
             minuman khas daerah jawa. tidak hanya daerah jawa tengah tapi jawa
             barat, jawa timur dan jakarta pun termasuk didalamnya
@@ -45,86 +45,5 @@ export default function WhaToDo() {
         </Box>
       </Wrap>
     </Flex>
-    // <Box
-    //   className="container"
-    //   w={"100%"}
-    //   paddingRight={"15px"}
-    //   paddingLeft={"15px"}
-    //   marginRight={"auto"}
-    //   marginLeft={"auto"}
-    //   maxW={["240px", "720px", "960px"]}
-    // >
-    //   <Flex marginRight={"-15px"} marginLeft="-15" color={"#222828"}>
-    //     <Box textAlign={"center"} padding={"3%"}>
-    //       <Box fontSize={"40px"}>
-    //         <i className="bi bi-facebook" />
-    //       </Box>
-    //       <Heading
-    //         as={"h3"}
-    //         fontSize={"1.5rem"}
-    //         marginBottom={"0.5"}
-    //         fontFamily="inherit"
-    //         fontWeight={"500"}
-    //         marginX="10px"
-    //         lineHeight="1.2"
-    //         color={"inherit"}
-    //         marginTop="0"
-    //       >
-    //         bahan berkualitas
-    //       </Heading>
-    //       <Text marginTop={"0"} marginBottom="1rem" fontSize={"1rem"}>
-    //         dimana kami sebagai tempat makan, pasti sangat menjaga kualitas dari
-    //         makanan &amp; minuman kami. jadi jangan ragu dengan hasil makanan
-    //         dan minumannya
-    //       </Text>
-    //     </Box>
-    //     <Box textAlign={"center"} padding={"3%"}>
-    //       <Box fontSize={"40px"}>
-    //         <i className="bi bi-facebook" />
-    //       </Box>
-    //       <Heading
-    //         as={"h3"}
-    //         fontSize={"1.5rem"}
-    //         marginBottom={"0.5"}
-    //         fontFamily="inherit"
-    //         fontWeight={"500"}
-    //         marginX="10px"
-    //         lineHeight="1.2"
-    //         color={"inherit"}
-    //         marginTop="0"
-    //       >
-    //         Tempat yang cozy
-    //       </Heading>
-    //       <Text marginTop={"0"} marginBottom="1rem" fontSize={"1rem"}>
-    //         kami menyediakan tempat yang sangat cozy untuk disinggahi dan sangat
-    //         cocok untuk anak muda yang pecinta makanan dan minuman khas daerah
-    //         sehingga para pelanggan nyaman berlama lama ditempat kami
-    //       </Text>
-    //     </Box>
-    //     <Box textAlign={"center"} padding={"3%"}>
-    //       <Box fontSize={"40px"}>
-    //         <i className="bi bi-facebook" />
-    //       </Box>
-    //       <Heading
-    //         as={"h3"}
-    //         fontSize={"1.5rem"}
-    //         marginBottom={"0.5"}
-    //         fontFamily="inherit"
-    //         fontWeight={"500"}
-    //         marginX="10px"
-    //         lineHeight="1.2"
-    //         color={"inherit"}
-    //         marginTop="0"
-    //       >
-    //         Menu yang bervarian
-    //       </Heading>
-    //       <Text marginTop={"0"} marginBottom="1rem" fontSize={"1rem"}>
-    //         tentu saja waroeng solo menyediakan berbagai macam makanan dan
-    //         minuman khas daerah jawa. tidak hanya daerah jawa tengah tapi jawa
-    //         barat, jawa timur dan jakarta pun termasuk didalamnya
-    //       </Text>
-    //     </Box>
-    //   </Flex>
-    // </Box>
   );
 }
