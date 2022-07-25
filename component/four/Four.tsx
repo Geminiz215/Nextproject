@@ -30,7 +30,7 @@ export default function Four() {
           as="h1"
           color="white"
           textAlign={"center"}
-          fontSize="2.5rem"
+          fontSize="2rem"
           fontWeight="500"
           mb={"12"}
         >

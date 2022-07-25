@@ -7,7 +7,7 @@ export default function Five() {
     <Box width="100%" bgColor={"#222828"}>
       <Flex alignItems={"center"} flexDirection={"column"}>
         <Image src="/images/icon/quote.png" boxSize={"40px"} m="5%" />
-        <Text fontSize={"lg"} width={"40vw"} color="white" textAlign="center" mb={"1rem"}>
+        <Text fontSize={"sm"} width={"40vw"} color="white" textAlign="center" mb={"1rem"}>
           "Makanan adalah segalanya bagi kita. Ini merupakan perpanjangan dari
           perasaan nasionalis, perasaan etnis, sejarah pribadimu, provinsimu,
           daerahmu, sukumu, nenekmu. Itu tidak dapat dipisahkan sejak awal."

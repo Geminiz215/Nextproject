@@ -17,7 +17,7 @@ export default function MyCard() {
         boxSize={"100px"}
         borderRadius="50"
       />
-      <Text color={"white"} textAlign="center" mt={"5"}>
+      <Text color={"white"} fontSize="sm" textAlign="center" mt={"5"}>
         "makanannya sangat lezat dan menarik untuk dicoba selain itu Ngak ribet
         cara mesennya dan makannya gila sih enak banget" dan juga "tempatnya
         sangat nyaman dan makanannya enak enak"

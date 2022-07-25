@@ -27,7 +27,7 @@ export default function Message() {
         >
           Punten everyone
         </Heading>
-        <Text textAlign={"center"} marginTop={"0"} marginBottom="1rem" fontSize={"lg"}>
+        <Text textAlign={"center"} marginTop={"0"} marginBottom="1rem" fontSize={"sm"}>
           Kalian bisa menghabiskan waktu santai dengan makanan dan minuman khas
           daerah jawa. Kami menyediakan tempat yang nyaman, adem, cozy untuk
           menyantap makanan dan juga bisa untuk nongkrong- nongkrong santai
