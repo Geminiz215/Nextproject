@@ -113,7 +113,7 @@ export default function MyFirst() {
             </Link>
             <Link>
               <Text m={"1"} fontSize={"lg"}>
-                pante
+                test
               </Text>
             </Link>
           </Flex>

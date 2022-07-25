@@ -25,7 +25,7 @@ export default function Message() {
           fontWeight="500"
           lineHeight={"1.2"}
         >
-          Punten mamank
+          Punten everyone
         </Heading>
         <Text textAlign={"center"} marginTop={"0"} marginBottom="1rem" fontSize={"lg"}>
           Kalian bisa menghabiskan waktu santai dengan makanan dan minuman khas
