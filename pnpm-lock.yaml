@@ -16,6 +16,7 @@ specifiers:
   react: 17.0.2
   react-client-session: ^0.0.8
   react-dom: 17.0.2
+  react-select: ^5.4.0
   react-slick: ^0.29.0
   slick-carousel: ^1.8.1
   typescript: 4.6.2
@@ -31,6 +32,7 @@ dependencies:
   react: 17.0.2
   react-client-session: 0.0.8_react@17.0.2
   react-dom: 17.0.2_react@17.0.2
+  react-select: 5.4.0_xxtiktyinbue6ypyw7xrgc4q7a
   react-slick: 0.29.0_sfoxds7t5ydpegc3knd667wn6m
   slick-carousel: 1.8.1_jquery@3.6.0
 
@@ -1475,6 +1477,12 @@ packages:
       '@types/react': 17.0.41
     dev: true
 
+  /@types/react-transition-group/4.4.5:
+    resolution: {integrity: sha512-juKD/eiSM3/xZYzjuzH6ZwpP+/lejltmiS3QEzV/vmb/Q8+HfDmxu+Baga8UEMGBqV88Nbg4l2hY/K2DkyaLLA==}
+    dependencies:
+      '@types/react': 17.0.41
+    dev: false
+
   /@types/react/17.0.41:
     resolution: {integrity: sha512-chYZ9ogWUodyC7VUTRBfblysKLjnohhFY9bGLwvnUFFy48+vB9DikmB3lW0qTFmBcKSzmdglcvkHK71IioOlDA==}
     dependencies:
@@ -1879,6 +1887,13 @@ packages:
     dependencies:
       esutils: 2.0.3
     dev: true
+
+  /dom-helpers/5.2.1:
+    resolution: {integrity: sha512-nRCa7CK3VTrM2NmGkIy4cbK7IZlgBE/PYMn55rrXefr5xXDP0LdtfPnblFDoVdcAfslJ7or6iqAUnx0CCGIWQA==}
+    dependencies:
+      '@babel/runtime': 7.18.6
+      csstype: 3.1.0
+    dev: false
 
   /electron-to-chromium/1.4.185:
     resolution: {integrity: sha512-9kV/isoOGpKkBt04yYNaSWIBn3187Q5VZRtoReq8oz5NY/A4XmU6cAoqgQlDp7kKJCZMRjWZ8nsQyxfpFHvfyw==}
@@ -2740,6 +2755,10 @@ packages:
       yallist: 4.0.0
     dev: true
 
+  /memoize-one/5.2.1:
+    resolution: {integrity: sha512-zYiwtZUcYyXKo/np96AGZAckk+FWWsUdJ3cHGGmld7+AhvcWmQyGCYUh1hc4Q/pkOhb65dQR/pqCyK0cOaHz4Q==}
+    dev: false
+
   /merge2/1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
@@ -3090,6 +3109,26 @@ packages:
       use-sidecar: 1.1.2_nlfobmfeui6eg4qujebk77uhgu
     dev: false
 
+  /react-select/5.4.0_xxtiktyinbue6ypyw7xrgc4q7a:
+    resolution: {integrity: sha512-CjE9RFLUvChd5SdlfG4vqxZd55AZJRrLrHzkQyTYeHlpOztqcgnyftYAolJ0SGsBev6zAs6qFrjm6KU3eo2hzg==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@babel/runtime': 7.18.6
+      '@emotion/cache': 11.9.3
+      '@emotion/react': 11.9.3_7jpylbsvifll2tfn6rloefplvi
+      '@types/react-transition-group': 4.4.5
+      memoize-one: 5.2.1
+      prop-types: 15.8.1
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      react-transition-group: 4.4.2_sfoxds7t5ydpegc3knd667wn6m
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@types/react'
+    dev: false
+
   /react-slick/0.29.0_sfoxds7t5ydpegc3knd667wn6m:
     resolution: {integrity: sha512-TGdOKE+ZkJHHeC4aaoH85m8RnFyWqdqRfAGkhd6dirmATXMZWAxOpTLmw2Ll/jPTQ3eEG7ercFr/sbzdeYCJXA==}
     peerDependencies:
@@ -3120,6 +3159,20 @@ packages:
       invariant: 2.2.4
       react: 17.0.2
       tslib: 2.4.0
+    dev: false
+
+  /react-transition-group/4.4.2_sfoxds7t5ydpegc3knd667wn6m:
+    resolution: {integrity: sha512-/RNYfRAMlZwDSr6z4zNKV6xu53/e2BuaBbGhbyYIXTrmgu/bGHzmqOs7mJSJBHy9Ud+ApHx3QjrkKSp1pxvlFg==}
+    peerDependencies:
+      react: '>=16.6.0'
+      react-dom: '>=16.6.0'
+    dependencies:
+      '@babel/runtime': 7.18.6
+      dom-helpers: 5.2.1
+      loose-envify: 1.4.0
+      prop-types: 15.8.1
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
     dev: false
 
   /react/17.0.2:

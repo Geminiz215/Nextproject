@@ -8,8 +8,15 @@ import {
   Text,
   UnorderedList,
 } from "@chakra-ui/react";
+import Select from "react-select";
 
 export default function MyFirst() {
+  const options = [
+    { value: "chocolate", label: "Chocolate" },
+    { value: "strawberry", label: "Strawberry" },
+    { value: "vanilla", label: "Vanilla" },
+  ];
+
   return (
     <Box
       className="first"
@@ -25,7 +32,7 @@ export default function MyFirst() {
           <Heading
             as={"h2"}
             fontWeight={"500"}
-            fontSize="5xl"
+            fontSize="3xl"
             fontFamily="sans-serif"
           >
             waroeng solo
@@ -102,46 +109,27 @@ export default function MyFirst() {
           <hr />
           <Flex>
             <Link>
-              <Text m={"1"} fontSize={"lg"}>
+              <Text m={"1"} fontSize={"md"}>
                 uy
               </Text>
             </Link>
             <Link>
-              <Text m={"1"} fontSize={"lg"}>
+              <Text m={"1"} fontSize={"md"}>
                 hallo
               </Text>
             </Link>
             <Link>
-              <Text m={"1"} fontSize={"lg"}>
+              <Text m={"1"} fontSize={"md"}>
                 test
               </Text>
             </Link>
           </Flex>
+          <Box color={"black"} display="grid" height={"50vh"} alignItems={"center"}>
+            <Select options={options} />
+          </Box>
+          
         </Box>
       </Flex>
-      <Flex width={"100%"} marginTop="3" justifyContent="center">
-        <Box width={"370px"} height="247px" bgGradient='linear(to-l, #0F3443, #34E89E)'>
-          p
-        </Box>
-        <Box width={"370px"} height="247px">
-          <Image src="/images/1.jpeg"  />
-        </Box>
-        <Box width={"370px"} height="247px" bgGradient='linear(to-l, #43C6AC, #191654)'>
-          p
-        </Box>
-      </Flex>
-      <Flex width={"100%"}  justifyContent="center">
-        <Box width={"370px"} height="247px">
-          <Image src="/images/2.jpeg"  />
-        </Box>
-        <Box width={"370px"} height="247px" bgColor={"red.100"}>
-          p
-        </Box>
-        <Box width={"370px"} height="247px">
-          <Image src="/images/3.jpeg"  />
-        </Box>
-      </Flex>
-      
     </Box>
   );
 }
