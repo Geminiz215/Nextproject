@@ -32,7 +32,7 @@ export default function MyFirst() {
           <Heading
             as={"h2"}
             fontWeight={"500"}
-            fontSize="3xl"
+            fontSize="4xl"
             fontFamily="sans-serif"
           >
             waroeng solo
