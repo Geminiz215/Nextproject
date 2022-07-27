@@ -37,7 +37,7 @@ export default function MyFirst() {
           >
             waroeng solo
           </Heading>
-          <UnorderedList marginTop={"1"} mb={"1rem"}>
+          {/* <UnorderedList marginTop={"1"} mb={"1rem"}>
             <ListItem
               fontSize={"17px"}
               display="inline-block"
@@ -104,7 +104,7 @@ export default function MyFirst() {
                 </a>
               </Link>
             </ListItem>
-          </UnorderedList>
+          </UnorderedList> */}
           <br />
           
           <Flex>
