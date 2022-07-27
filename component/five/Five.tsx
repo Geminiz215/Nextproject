@@ -24,12 +24,10 @@ export default function Five() {
       <Heading color={"white"} textAlign="center" mb={"5"}>
         Testimoni
       </Heading>
-      <Flex p={"5"} justifyContent={"center"} width="100%">
-        <Wrap spacing={"4"}>
+      <Flex p={"5"} justifyContent={"center"} gap="5" width="100%" flexDir={["column", "inherit","inherit"]}>
           <Card />
           <Card />
-          <Card />
-        </Wrap>
+          <Card />       
       </Flex>
       <br />
     </Box>
