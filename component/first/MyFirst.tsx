@@ -124,9 +124,9 @@ export default function MyFirst() {
               </Text>
             </Link>
           </Flex>
-          <Box color={"black"} display="grid" height={"50vh"} alignItems={"center"}>
+          {/* <Box color={"black"} display="grid" height={"50vh"} alignItems={"center"}>
             <Select options={options} />
-          </Box>
+          </Box> */}
           
         </Box>
       </Flex>
