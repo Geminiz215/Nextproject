@@ -106,7 +106,7 @@ export default function MyFirst() {
             </ListItem>
           </UnorderedList>
           <br />
-          <hr />
+          
           <Flex>
             <Link>
               <Text m={"1"} fontSize={"md"}>
