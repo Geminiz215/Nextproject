@@ -24,7 +24,7 @@ export default function Five() {
       <Heading color={"white"} textAlign="center" mb={"5"}>
         Testimoni
       </Heading>
-      <Flex justifyContent={"center"} width="100%">
+      <Flex p={"5"} justifyContent={"center"} width="100%">
         <Wrap spacing={"4"}>
           <Card />
           <Card />
