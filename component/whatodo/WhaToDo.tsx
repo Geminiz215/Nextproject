@@ -2,7 +2,7 @@ import { Box, Flex, Heading, Image, Text, Wrap } from "@chakra-ui/react";
 
 export default function WhaToDo() {
   return (
-    <Flex justifyContent={"center"} p="5" minH="320">
+    <Flex justifyContent={"center"} p="5" minH="320" width={"100%"}> 
       <Wrap spacing={"16"}>
         <Box width={"300px"} m="4">
           <Flex justifyContent={"center"} m="1">

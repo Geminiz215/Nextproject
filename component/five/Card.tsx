@@ -3,7 +3,7 @@ import { Box, Flex, Image, Text } from "@chakra-ui/react";
 export default function MyCard() {
   return (
     <Flex
-      width={"33%"}
+      width={"500px"}
       borderRadius="15"
       border={"solid"}
       borderColor="white"
