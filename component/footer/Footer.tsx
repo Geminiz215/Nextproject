@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <Box p="4%" bgColor={"#2D2B3A"} color="white">
       <Flex width={"100%"} gap="3" >
-        <Box width={"33%"} p="2">
+        <Box width={["30%","30%","100%"]} p="2">
           <Heading fontFamily={"monospace"}>waroeng solo</Heading>
           <Text color={"#898798"} fontSize="sm" width="350px">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum

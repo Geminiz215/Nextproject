@@ -26,9 +26,10 @@ export default function MyFirst() {
       height={"100vh"}
       color="white"
       backgroundSize={"cover"}
+      width="100%"
     >
       <Flex width={"100%"} justifyContent="center">
-        <Box width="73%" minW={"520px"} paddingLeft="5">
+        <Box width="73%"  paddingLeft="5">
           <Heading
             as={"h2"}
             fontWeight={"500"}
@@ -37,7 +38,7 @@ export default function MyFirst() {
           >
             waroeng solo
           </Heading>
-          {/* <UnorderedList marginTop={"1"} mb={"1rem"}>
+          <UnorderedList marginTop={"1"} mb={"1rem"}>
             <ListItem
               fontSize={"17px"}
               display="inline-block"
@@ -104,8 +105,9 @@ export default function MyFirst() {
                 </a>
               </Link>
             </ListItem>
-          </UnorderedList> */}
+          </UnorderedList>
           <br />
+          <hr/>
           
           <Flex>
             <Link>
