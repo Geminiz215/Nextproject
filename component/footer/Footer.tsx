@@ -26,7 +26,7 @@ export default function Footer() {
             </Flex>
           </Box>
         </Box>
-        <Box width={["500px","40%", "30%"]} p="2">
+        {/* <Box width={["500px","40%", "30%"]} p="2">
           <Heading as={"h4"} fontSize="xl" fontFamily={"monospace"}>contact Info</Heading>
           <Text color={"white"} fontSize="xs" as={"cite"} width="300px">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
@@ -34,7 +34,7 @@ export default function Footer() {
             incidunt consequatur, nesciunt architecto reiciendis, sit fugit
             placeat, praesentium tempore voluptate ad minima.
           </Text>
-        </Box>
+        </Box> */}
         <Box width={["300px","40%", "30%"]} position="relative">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.89869945772855!2d107.02122140734024!3d-6.213619399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698f9fe48de049%3A0x2c2d956dc136be50!2sws%20transporter!5e0!3m2!1sid!2sid!4v1658986653793!5m2!1sid!2sid"
