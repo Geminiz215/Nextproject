@@ -10,7 +10,7 @@ export default function Footer() {
         justifyContent="center"
       >
         <Box width={["500px","40%", "30%"]} p="2">
-          <Heading as={"h4"} fontFamily={"monospace"}>waroeng solo</Heading>
+          <Heading as={"h4"} fontSize="xl" fontFamily={"monospace"}>waroeng solo</Heading>
           <Box display={"flex"} flexDir="column" gap={"3"} p="1">
             <Flex>
               <Image src="/images/icon/pin.png" boxSize={"5"} />
@@ -27,8 +27,8 @@ export default function Footer() {
           </Box>
         </Box>
         <Box width={["500px","40%", "30%"]} p="2">
-          <Heading as={"h4"} fontFamily={"monospace"}>contact Info</Heading>
-          <Text color={"white"} fontSize="sm" as={"kbd"} width={["300px","100%","100%" ]}>
+          <Heading as={"h4"} fontSize="xl" fontFamily={"monospace"}>contact Info</Heading>
+          <Text color={"white"} fontSize="xs" as={"kbd"} width={["300px","100%","100%" ]}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
             sapiente pariatur consequatur atque hic, labore ipsam? Officiis
             incidunt consequatur, nesciunt architecto reiciendis, sit fugit
