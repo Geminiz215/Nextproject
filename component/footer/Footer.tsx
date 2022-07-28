@@ -10,7 +10,7 @@ export default function Footer() {
         justifyContent="center"
       >
         <Box width={["500px","40%", "30%"]} p="2">
-          <Heading fontFamily={"monospace"}>waroeng solo</Heading>
+          <Heading as={"h4"} fontFamily={"monospace"}>waroeng solo</Heading>
           <Box display={"flex"} flexDir="column" gap={"3"} p="1">
             <Flex>
               <Image src="/images/icon/pin.png" boxSize={"5"} />
@@ -27,7 +27,7 @@ export default function Footer() {
           </Box>
         </Box>
         <Box width={["500px","40%", "30%"]} p="2">
-          <Heading fontFamily={"monospace"}>contact Info</Heading>
+          <Heading as={"h4"} fontFamily={"monospace"}>contact Info</Heading>
           <Text color={"white"} fontSize="sm" as={"kbd"} width={["300px","100%","100%" ]}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
             sapiente pariatur consequatur atque hic, labore ipsam? Officiis
@@ -35,7 +35,7 @@ export default function Footer() {
             placeat, praesentium tempore voluptate ad minima.
           </Text>
         </Box>
-        <Box width={["350px","40%", "30%"]} position="relative">
+        <Box width={["300px","40%", "30%"]} position="relative">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.89869945772855!2d107.02122140734024!3d-6.213619399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698f9fe48de049%3A0x2c2d956dc136be50!2sws%20transporter!5e0!3m2!1sid!2sid!4v1658986653793!5m2!1sid!2sid"
             width="100%"
