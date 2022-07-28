@@ -28,7 +28,7 @@ export default function Footer() {
         </Box>
         <Box width={["500px","40%", "30%"]} p="2">
           <Heading as={"h4"} fontSize="xl" fontFamily={"monospace"}>contact Info</Heading>
-          <Text color={"white"} fontSize="xs" as={"kbd"} width={["300px","100%","100%" ]}>
+          <Text color={"white"} fontSize="xs" as={"cite"} width="300px">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
             sapiente pariatur consequatur atque hic, labore ipsam? Officiis
             incidunt consequatur, nesciunt architecto reiciendis, sit fugit
