@@ -5,12 +5,14 @@ import {
   Image,
   Link,
   ListItem,
+  Spacer,
   Text,
   UnorderedList,
 } from "@chakra-ui/react";
 import Select from "react-select";
 
 export default function MyFirst() {
+  var coba = "punten";
   const options = [
     { value: "chocolate", label: "Chocolate" },
     { value: "strawberry", label: "Strawberry" },
@@ -23,13 +25,15 @@ export default function MyFirst() {
       bgImage={`url('/images/background/main.jpg')`}
       bgRepeat="no-repeat"
       bgSize={"size"}
-      height={"100vh"}
+      height={"98vh"}
       color="white"
       backgroundSize={"cover"}
       width="100%"
+      display={"flex"}
+      flexDir="column"
     >
       <Flex width={"100%"} justifyContent="center">
-        <Box width="73%"  paddingLeft="5">
+        <Box width="73%" paddingLeft="5">
           <Heading
             as={"h2"}
             fontWeight={"500"}
@@ -107,8 +111,8 @@ export default function MyFirst() {
             </ListItem>
           </UnorderedList>
           <br />
-          <hr/>
-          
+          <hr />
+
           <Flex>
             <Link>
               <Text m={"1"} fontSize={"md"}>
@@ -129,9 +133,15 @@ export default function MyFirst() {
           {/* <Box color={"black"} display="grid" height={"50vh"} alignItems={"center"}>
             <Select options={options} />
           </Box> */}
-          
         </Box>
       </Flex>
+      <Spacer />
+      <Box border={"20px solid tranparent"} >
+        
+      </Box>
+      {/* <Select options={options} value={coba} onChange={n => {
+          console.log(n)
+        }}/> */}
     </Box>
   );
 }
