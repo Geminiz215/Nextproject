@@ -7,7 +7,7 @@ export default function WhaToDo() {
         <Flex justifyContent={"center"} m="1">
           <Image src="vegetable-box.png" boxSize={"50"} />
         </Flex>
-        <Heading as={"h3"} m="1" fontSize={"2rem"} fontFamily="cursive">
+        <Heading textAlign={"center"} as={"h3"} m="1" fontSize={"2rem"} fontFamily="cursive">
           bahan berkualitas
         </Heading>
         <Text textAlign={"center"} fontSize="sm">
@@ -20,7 +20,7 @@ export default function WhaToDo() {
         <Flex justifyContent={"center"} m="1">
           <Image src="vegetable-box.png" boxSize={"50"} />
         </Flex>
-        <Heading as={"h3"} m="1" fontSize={"2rem"} fontFamily="cursive">
+        <Heading as={"h3"} m="1" textAlign={"center"} fontSize={"2rem"} fontFamily="cursive">
           bahan berkualitas
         </Heading>
         <Text textAlign={"center"} fontSize="sm">
@@ -33,7 +33,7 @@ export default function WhaToDo() {
         <Flex justifyContent={"center"} m="1">
           <Image src="vegetable-box.png" boxSize={"50"} />
         </Flex>
-        <Heading as={"h3"} m="1" fontSize={"2rem"} fontFamily="cursive">
+        <Heading as={"h3"} m="1" textAlign={"center"} fontSize={"2rem"} fontFamily="cursive">
           bahan berkualitas
         </Heading>
         <Text textAlign={"center"} fontSize="sm">
