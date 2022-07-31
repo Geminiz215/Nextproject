@@ -31,113 +31,115 @@ export default function MyFirst() {
       display={"flex"}
       flexDir="column"
     >
-      <Flex width={"100%"} justifyContent="center">
-        <Box width="73%" paddingLeft="5">
-          <Heading
-            as={"h2"}
-            fontWeight={"500"}
-            fontSize="4xl"
-            fontFamily="sans-serif"
-          >
-            waroeng solo
-          </Heading>
-          <UnorderedList marginTop={"1"} mb={"1rem"}>
-            <ListItem
-              fontSize={"17px"}
-              display="inline-block"
-              float={"right"}
-              paddingRight={"1%"}
-            >
-              <Link
-                href="farrppy"
-                bgColor={"transparent"}
-                textDecoration="none"
-              >
-                <i className="bi bi-instagram" />
-              </Link>
-            </ListItem>
-            <ListItem
-              fontSize={"17px"}
-              display="inline-block"
-              float={"right"}
-              paddingRight={"1%"}
-            >
-              <Link
-                href="farrppy"
-                bgColor={"transparent"}
-                textDecoration="none"
-              >
-                <i className="bi bi-facebook" />
-              </Link>
-            </ListItem>
-            <ListItem
-              fontSize={"17px"}
-              display="inline-block"
-              float={"right"}
-              paddingRight={"1%"}
-            >
-              <Link
-                href="farrppy"
-                bgColor={"transparent"}
-                textDecoration="none"
-              >
-                <a
-                  href="https://www.flaticon.com/free-icons/instagram"
-                  title="instagram icons"
-                >
-                  R
-                </a>
-              </Link>
-            </ListItem>
-            <ListItem
-              fontSize={"17px"}
-              display="inline-block"
-              float={"right"}
-              paddingRight={"1%"}
-            >
-              <Link
-                href="farrppy"
-                bgColor={"transparent"}
-                textDecoration="none"
-              >
-                <a
-                  href="https://www.flaticon.com/free-icons/instagram"
-                  title="instagram icons"
-                >
-                  H
-                </a>
-              </Link>
-            </ListItem>
-          </UnorderedList>
-          <br />
-          <hr />
+      <Box bgColor={"blackAlpha.700"} height="120">
+        p
 
-          <Flex>
-            <Link>
-              <Text m={"1"} fontSize={"md"}>
-                uy
-              </Text>
-            </Link>
-            <Link>
-              <Text m={"1"} fontSize={"md"}>
-                hallo
-              </Text>
-            </Link>
-            <Link>
-              <Text m={"1"} fontSize={"md"}>
-                test
-              </Text>
-            </Link>
-          </Flex>
-          {/* <Box color={"black"} display="grid" height={"50vh"} alignItems={"center"}>
+      </Box>
+        <Flex width={"100%"} justifyContent="center" position={"absolute"} >
+          <Box width="73%" paddingLeft="5">
+            <Heading
+              as={"h2"}
+              fontWeight={"500"}
+              fontSize="4xl"
+              fontFamily="sans-serif"
+            >
+              waroeng solo
+            </Heading>
+            <UnorderedList marginTop={"1"} mb={"1rem"}>
+              <ListItem
+                fontSize={"17px"}
+                display="inline-block"
+                float={"right"}
+                paddingRight={"1%"}
+              >
+                <Link
+                  href="farrppy"
+                  bgColor={"transparent"}
+                  textDecoration="none"
+                >
+                  <i className="bi bi-instagram" />
+                </Link>
+              </ListItem>
+              <ListItem
+                fontSize={"17px"}
+                display="inline-block"
+                float={"right"}
+                paddingRight={"1%"}
+              >
+                <Link
+                  href="farrppy"
+                  bgColor={"transparent"}
+                  textDecoration="none"
+                >
+                  <i className="bi bi-facebook" />
+                </Link>
+              </ListItem>
+              <ListItem
+                fontSize={"17px"}
+                display="inline-block"
+                float={"right"}
+                paddingRight={"1%"}
+              >
+                <Link
+                  href="farrppy"
+                  bgColor={"transparent"}
+                  textDecoration="none"
+                >
+                  <a
+                    href="https://www.flaticon.com/free-icons/instagram"
+                    title="instagram icons"
+                  >
+                    R
+                  </a>
+                </Link>
+              </ListItem>
+              <ListItem
+                fontSize={"17px"}
+                display="inline-block"
+                float={"right"}
+                paddingRight={"1%"}
+              >
+                <Link
+                  href="farrppy"
+                  bgColor={"transparent"}
+                  textDecoration="none"
+                >
+                  <a
+                    href="https://www.flaticon.com/free-icons/instagram"
+                    title="instagram icons"
+                  >
+                    H
+                  </a>
+                </Link>
+              </ListItem>
+            </UnorderedList>
+            <br />
+            <hr />
+
+            <Flex>
+              <Link>
+                <Text m={"1"} fontSize={"md"}>
+                  uy
+                </Text>
+              </Link>
+              <Link>
+                <Text m={"1"} fontSize={"md"}>
+                  hallo
+                </Text>
+              </Link>
+              <Link>
+                <Text m={"1"} fontSize={"md"}>
+                  test
+                </Text>
+              </Link>
+            </Flex>
+            {/* <Box color={"black"} display="grid" height={"50vh"} alignItems={"center"}>
             <Select options={options} />
           </Box> */}
-        </Box>
-      </Flex>
+          </Box>
+        </Flex>
+      
       <Spacer />
-      <Box border={"20px solid tranparent"} >
-        
-      </Box>
       {/* <Select options={options} value={coba} onChange={n => {
           console.log(n)
         }}/> */}
