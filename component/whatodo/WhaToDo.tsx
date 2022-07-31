@@ -18,7 +18,7 @@ export default function WhaToDo() {
       </Box>
       <Box width={"300px"} m="4">
         <Flex justifyContent={"center"} m="1">
-          <Image src="vegetable-box.png" boxSize={"50"} />
+          <Image src="/images/icon/cafe.png" boxSize={"50"} />
         </Flex>
         <Heading as={"h3"} m="1" textAlign={"center"} fontSize={"2rem"} fontFamily="cursive">
           bahan berkualitas
@@ -31,7 +31,7 @@ export default function WhaToDo() {
       </Box>
       <Box width={"300px"} m="4">
         <Flex justifyContent={"center"} m="1">
-          <Image src="vegetable-box.png" boxSize={"50"} />
+          <Image src="/images/icon/menu.png" boxSize={"50"} />
         </Flex>
         <Heading as={"h3"} m="1" textAlign={"center"} fontSize={"2rem"} fontFamily="cursive">
           bahan berkualitas

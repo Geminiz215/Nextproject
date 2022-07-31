@@ -12,7 +12,6 @@ import {
 import Select from "react-select";
 
 export default function MyFirst() {
-  var coba = "punten";
   const options = [
     { value: "chocolate", label: "Chocolate" },
     { value: "strawberry", label: "Strawberry" },
