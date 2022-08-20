@@ -9,7 +9,7 @@ import {
   Text,
   UnorderedList,
 } from "@chakra-ui/react";
-import Select from "react-select";
+// import Select from "react-select";
 
 export default function MyFirst() {
   const options = [
@@ -31,10 +31,6 @@ export default function MyFirst() {
       display={"flex"}
       flexDir="column"
     >
-      <Box bgColor={"blackAlpha.700"} height="120">
-        p
-
-      </Box>
         <Flex width={"100%"} justifyContent="center" position={"absolute"} >
           <Box width="73%" paddingLeft="5">
             <Heading

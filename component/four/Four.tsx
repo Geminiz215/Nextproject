@@ -42,7 +42,7 @@ export default function Four() {
           <Button
             height={"20"}
             width="200px"
-            size={"lg"}
+            size={"md"}
             colorScheme="teal"
             variant="outline"
           >
