@@ -15,7 +15,7 @@ export default function Five() {
         >
           "Makanan adalah segalanya bagi kita. Ini merupakan perpanjangan dari
           perasaan nasionalis, perasaan etnis, sejarah pribadimu, provinsimu,
-          daerahmu, sukumu, nenekmu. Itu tidak dapat dipisahkan sejak awal."
+          daerahmu, sukumu, nenekmu. Itu tidak dapat dipisahkan sejak awall."
         </Text>
         <Text color="white" textAlign="center" mb={"1rem"}>
           - Anthony Bourdain
