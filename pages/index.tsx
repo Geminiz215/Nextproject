@@ -7,6 +7,8 @@ import Four from "../component/four/Four";
 import Gallery from "../component/gallery/Gallery";
 import Message from "../component/massage/Message";
 import WhaToDo from "../component/whatodo/WhaToDo";
+
+
 const Home: NextPage = () => {
   return (
     <Fragment>

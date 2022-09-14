@@ -11,6 +11,7 @@ import {
 import { useState } from "react";
 import Slider from "react-slick";
 import Card from "./card";
+import data from "../../data/csvjson.json";
 
 const zoomIn = keyframes`
 from {transform:  scale(1);}
@@ -78,17 +79,23 @@ export default function Gallery() {
       /> */}
 
       <Box width={"100%"} p="4">
-        <Heading fontFamily={"cursive"} color="whatsapp.600" paddingBottom={"3"}>waroeng solo menu</Heading>
+        <Heading
+          fontFamily={"cursive"}
+          color="whatsapp.600"
+          paddingBottom={"3"}
+        >
+          waroeng solo menu
+        </Heading>
         <Slider {...settings}>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          {data.map((x, i) => {
+            return (
+              <Card
+                imgsrc={`${x.gambar}`}
+                price={`${x.harga}`}
+                menu={x.menu}
+              />
+            );
+          })}
         </Slider>
       </Box>
     </Box>

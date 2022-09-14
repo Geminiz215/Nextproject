@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "menu": "Pecel",
+    "harga": 15000,
+    "description": "pecel dengan bumbu kacang pedas manis dengan sayuran yang segar",
+    "kode": "MK001",
+    "tanggal": "2022-01-30 10:45:09",
+    "gambar": "Pecel.jpg"
+  },
+  {
+    "id": 2,
+    "menu": "Krecek",
+    "harga": 22000,
+    "description": "Krecek Pedas dengan ati ampela ayam",
+    "kode": "MK002",
+    "tanggal": "2022-01-30 11:00:27",
+    "gambar": "Krecek.jpg"
+  },
+  {
+    "id": 3,
+    "menu": "Ayam Opor",
+    "harga": 23000,
+    "description": "Ayam opor dengan kuah santan yang kental",
+    "kode": "MK003",
+    "tanggal": "2022-01-30 11:00:27",
+    "gambar": "AyamOpor.jpg"
+  },
+  {
+    "id": 5,
+    "menu": "Botok",
+    "harga": 10000,
+    "description": "di bungkus dengan daun pisang",
+    "kode": "MK004",
+    "tanggal": "2022-02-12 16:22:57",
+    "gambar": "Botok.jpg"
+  },
+  {
+    "id": 6,
+    "menu": "Ayam Goreng Ungkep",
+    "harga": 23000,
+    "description": "di ungkep dengan rempah pilihan khas SOLO",
+    "kode": "MK005",
+    "tanggal": "2022-02-12 16:27:24",
+    "gambar": "AyamUngkep.jpg"
+  },
+  {
+    "id": 7,
+    "menu": "Gudeg",
+    "harga": 18000,
+    "description": "Perpaduan Gudeg yang di sajikan dengan nasi hangat dan juga kuah santan kental (areh), ayam kampung, telur, tempe, tahu dan sambal goreng krecek.",
+    "kode": "MK006",
+    "tanggal": "2022-02-12 16:28:10",
+    "gambar": "Gudeg.jpg"
+  },
+  {
+    "id": 8,
+    "menu": "Wedang jahe",
+    "harga": 7000,
+    "description": "Saat cuaca sedang dingin dan hujan, rasanya nikmat bila dapat menyeruput minuman hangat. Kamu dapat meminum wedang jahe ala Waroeng Solo untuk menghangatkan badan.",
+    "kode": "MN002",
+    "tanggal": "2022-02-12 16:29:35",
+    "gambar": "Wedangjahe.jpg"
+  },
+  {
+    "id": 10,
+    "menu": "Rawon",
+    "harga": 17000,
+    "description": "Rawon daging berkuah hitam pekat ini rasanya gurih mantap. Potongan daging berlemaknya empuk juicy. Makin enak dimakan dengan telur asin dan tauge segar.",
+    "kode": "MK007",
+    "tanggal": "2022-02-12 16:32:24",
+    "gambar": "Rawon.jpg"
+  }
+]

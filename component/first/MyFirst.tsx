@@ -115,17 +115,22 @@ export default function MyFirst() {
             <Flex>
               <Link>
                 <Text m={"1"} fontSize={"md"}>
-                  uy
+                  Menu
                 </Text>
               </Link>
               <Link>
                 <Text m={"1"} fontSize={"md"}>
-                  hallo
+                  About
                 </Text>
               </Link>
               <Link>
                 <Text m={"1"} fontSize={"md"}>
-                  test
+                  Location
+                </Text>
+              </Link>
+              <Link>
+                <Text m={"1"} fontSize={"md"}>
+                  contact
                 </Text>
               </Link>
             </Flex>
