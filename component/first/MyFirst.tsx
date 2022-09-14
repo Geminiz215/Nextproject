@@ -81,12 +81,7 @@ export default function MyFirst() {
                   bgColor={"transparent"}
                   textDecoration="none"
                 >
-                  <a
-                    href="https://www.flaticon.com/free-icons/instagram"
-                    title="instagram icons"
-                  >
-                    R
-                  </a>
+                  R
                 </Link>
               </ListItem>
               <ListItem
@@ -100,12 +95,7 @@ export default function MyFirst() {
                   bgColor={"transparent"}
                   textDecoration="none"
                 >
-                  <a
-                    href="https://www.flaticon.com/free-icons/instagram"
-                    title="instagram icons"
-                  >
-                    H
-                  </a>
+                 H
                 </Link>
               </ListItem>
             </UnorderedList>

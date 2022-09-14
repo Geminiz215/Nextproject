@@ -93,6 +93,7 @@ export default function Gallery() {
                 imgsrc={`${x.gambar}`}
                 price={`${x.harga}`}
                 menu={x.menu}
+                key={i}
               />
             );
           })}
