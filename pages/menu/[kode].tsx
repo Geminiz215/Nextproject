@@ -21,13 +21,11 @@ interface MenuDetailProps {
 }
 
 export default function myQuery(props: MenuDetailProps) {
-  const router = useRouter();
-  const kode = router.query;
   const { menu } = props;
   return (
     <Flex w={"100vw"}  justifyContent="center" mt={"5"}>
       <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
-        <Image src={`/images/menu/${menu.gambar}`} width="100%" maxH={"350"} />
+        <Image src={`/images/menu/${menu.gambar}`} alt={`/images/menu/${menu.gambar}`} width="100%" maxH={"350"} />
 
         <Box p="6">
           <Box display="flex" alignItems="baseline">
