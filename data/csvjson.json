@@ -6,7 +6,8 @@
     "description": "pecel dengan bumbu kacang pedas manis dengan sayuran yang segar",
     "kode": "MK001",
     "tanggal": "2022-01-30 10:45:09",
-    "gambar": "Pecel.jpg"
+    "gambar": "Pecel.jpg",
+    "rating": 4
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "description": "Krecek Pedas dengan ati ampela ayam",
     "kode": "MK002",
     "tanggal": "2022-01-30 11:00:27",
-    "gambar": "Krecek.jpg"
+    "gambar": "Krecek.jpg",
+    "rating": 5
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "description": "Ayam opor dengan kuah santan yang kental",
     "kode": "MK003",
     "tanggal": "2022-01-30 11:00:27",
-    "gambar": "AyamOpor.jpg"
+    "gambar": "AyamOpor.jpg",
+    "rating": 4
   },
   {
     "id": 5,
@@ -33,7 +36,8 @@
     "description": "di bungkus dengan daun pisang",
     "kode": "MK004",
     "tanggal": "2022-02-12 16:22:57",
-    "gambar": "Botok.jpg"
+    "gambar": "Botok.jpg",
+    "rating": 3
   },
   {
     "id": 6,
@@ -42,7 +46,8 @@
     "description": "di ungkep dengan rempah pilihan khas SOLO",
     "kode": "MK005",
     "tanggal": "2022-02-12 16:27:24",
-    "gambar": "AyamUngkep.jpg"
+    "gambar": "AyamUngkep.jpg",
+    "rating": 5
   },
   {
     "id": 7,
@@ -51,7 +56,8 @@
     "description": "Perpaduan Gudeg yang di sajikan dengan nasi hangat dan juga kuah santan kental (areh), ayam kampung, telur, tempe, tahu dan sambal goreng krecek.",
     "kode": "MK006",
     "tanggal": "2022-02-12 16:28:10",
-    "gambar": "Gudeg.jpg"
+    "gambar": "Gudeg.jpg",
+    "rating": 4
   },
   {
     "id": 8,
@@ -60,7 +66,8 @@
     "description": "Saat cuaca sedang dingin dan hujan, rasanya nikmat bila dapat menyeruput minuman hangat. Kamu dapat meminum wedang jahe ala Waroeng Solo untuk menghangatkan badan.",
     "kode": "MN002",
     "tanggal": "2022-02-12 16:29:35",
-    "gambar": "Wedangjahe.jpg"
+    "gambar": "Wedangjahe.jpg",
+    "rating": 2
   },
   {
     "id": 10,
@@ -69,6 +76,7 @@
     "description": "Rawon daging berkuah hitam pekat ini rasanya gurih mantap. Potongan daging berlemaknya empuk juicy. Makin enak dimakan dengan telur asin dan tauge segar.",
     "kode": "MK007",
     "tanggal": "2022-02-12 16:32:24",
-    "gambar": "Rawon.jpg"
+    "gambar": "Rawon.jpg",
+    "rating": 4
   }
 ]

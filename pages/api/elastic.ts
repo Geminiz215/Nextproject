@@ -18,7 +18,6 @@ const Mydata = async () => {
 
 export default function elastic(req: NextApiRequest, res: NextApiResponse) {
   Mydata().then(x => {
-    console.log(x)
     res.status(200).send({ message: x });
 });
 }

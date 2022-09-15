@@ -8,7 +8,7 @@ import {
   Text,
   usePrefersReducedMotion,
 } from "@chakra-ui/react";
-import { useState } from "react";
+import { forwardRef, RefObject, useRef, useState } from "react";
 import Slider from "react-slick";
 import Card from "./card";
 import data from "../../data/csvjson.json";
@@ -21,7 +21,17 @@ const fade = keyframes`
 from {opacity: 0 ;}
 to {opacity: 100;}`;
 
-export default function Gallery() {
+export interface ChildProps{
+  galeryRef: any
+}
+
+
+export default function Gallery(props: ChildProps) {
+
+  const linkRef = useRef(null)
+
+  props.galeryRef(linkRef)
+
   const prefersReducedMotion = usePrefersReducedMotion();
 
   const animation = prefersReducedMotion
@@ -70,19 +80,13 @@ export default function Gallery() {
 
   return (
     <Box mb={"100"}>
-      {/* <Image
-        src="/images/1.jpeg"
-        boxSize="300px"
-        _hover={{
-          animation,
-        }}
-      /> */}
 
       <Box width={"100%"} p="4">
         <Heading
           fontFamily={"cursive"}
           color="whatsapp.600"
           paddingBottom={"3"}
+          ref={linkRef}
         >
           waroeng solo menu
         </Heading>
@@ -93,6 +97,7 @@ export default function Gallery() {
                 imgsrc={`${x.gambar}`}
                 price={`${x.harga}`}
                 menu={x.menu}
+                kode={x.kode}
                 key={i}
               />
             );

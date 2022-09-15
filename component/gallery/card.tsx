@@ -1,12 +1,16 @@
 import { Box, Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { useRouter } from "next/router";
 
 interface menu {
   imgsrc: string;
   price: string;
   menu: string;
+  kode: string
 }
 
 export default function Card(props: menu) {
+  const router = useRouter()
+
   return (
     <Box p="2">
       {/* <Image src borderRadius={"15"} /> */}
@@ -27,7 +31,7 @@ export default function Card(props: menu) {
         >
           {props.menu}
         </Heading>
-        <Button colorScheme="whatsapp" variant="outline">
+        <Button colorScheme="whatsapp" variant="outline" onClick={()=> router.push(`/menu/${props.kode}`)}>
           view more
         </Button>
       </Box>

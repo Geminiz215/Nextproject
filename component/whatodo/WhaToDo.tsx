@@ -21,7 +21,7 @@ export default function WhaToDo() {
           <Image src="/images/icon/cafe.png" boxSize={"50"} />
         </Flex>
         <Heading as={"h3"} m="1" textAlign={"center"} fontSize={"2rem"} fontFamily="cursive">
-          bahan berkualitas
+          Tempat nyaman
         </Heading>
         <Text textAlign={"center"} fontSize="sm">
           kami menyediakan tempat yang sangat cozy untuk disinggahi dan sangat
@@ -34,7 +34,7 @@ export default function WhaToDo() {
           <Image src="/images/icon/menu.png" boxSize={"50"} />
         </Flex>
         <Heading as={"h3"} m="1" textAlign={"center"} fontSize={"2rem"} fontFamily="cursive">
-          bahan berkualitas
+          menu beragam
         </Heading>
         <Text textAlign={"center"} fontSize="sm">
           tentu saja waroeng solo menyediakan berbagai macam makanan dan minuman
