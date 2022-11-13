@@ -24,7 +24,8 @@ export default function Five() {
       <Heading color={"white"} textAlign="center" mb={"5"}>
         Testimoni
       </Heading>
-      <Flex p={"5"} justifyContent={"center"} gap="5" width="100%" flexDir={["column", "inherit","inherit"]}>
+      <Flex p={"5"}
+      alignItems="center" justifyContent={"center"} gap="5" width="100%" flexDir={["column","column", "inherit","inherit"]}>
           <Card />
           <Card />
           <Card />       

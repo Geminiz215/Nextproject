@@ -13,14 +13,15 @@ export default function Footer(props : ChildProps) {
   props.aboutLink(linkRef)
 
   return (
-    <Box p="4%" bgColor={"#2D2B3A"} color="white">
+    <Box p={["10%","10%","4%"]} bgColor={"#2D2B3A"} color="white">
       <Flex
         width={"100%"}
         gap="3"
-        flexDir={["column", "inherit", "inherit"]}
+        flexDir={["column","column", "inherit", "inherit"]}
         justifyContent="center"
+        alignItems={"centerd"}
       >
-        <Box width={["300px", "40%", "30%"]} p="2" ref={linkRef}>
+        <Box width={["100%","100%", "40%", "30%"]} p="2" ref={linkRef}>
           <Heading as={"h4"} fontSize="xl" fontFamily={"monospace"}>
             contact Info
           </Heading>
@@ -48,7 +49,7 @@ export default function Footer(props : ChildProps) {
             </Flex>
           </Box>
         </Box>
-        <Box width={["300px", "40%", "30%"]} p="2">
+        <Box width={["100%","100%", "40%", "30%"]} p="2">
           <Heading as={"h4"} fontSize="xl" fontFamily={"monospace"}>
             waroeng solo
           </Heading>
@@ -62,7 +63,7 @@ export default function Footer(props : ChildProps) {
         </Box>
         
 
-        <Box width={["300px", "40%", "30%"]} position="relative">
+        <Box width={["100%","100%", "40%", "30%"]} position="relative">
         <Heading as={"h4"} fontSize="xl" fontFamily={"monospace"}>
           Location
         </Heading>

@@ -21,16 +21,14 @@ const fade = keyframes`
 from {opacity: 0 ;}
 to {opacity: 100;}`;
 
-export interface ChildProps{
-  galeryRef: any
+export interface ChildProps {
+  galeryRef: any;
 }
 
-
 export default function Gallery(props: ChildProps) {
+  const linkRef = useRef(null);
 
-  const linkRef = useRef(null)
-
-  props.galeryRef(linkRef)
+  props.galeryRef(linkRef);
 
   const prefersReducedMotion = usePrefersReducedMotion();
 
@@ -80,8 +78,7 @@ export default function Gallery(props: ChildProps) {
 
   return (
     <Box mb={"100"}>
-
-      <Box width={"100%"} p="4">
+      <Box width={"99%"} p="4">
         <Heading
           fontFamily={"cursive"}
           color="whatsapp.600"
@@ -90,19 +87,19 @@ export default function Gallery(props: ChildProps) {
         >
           waroeng solo menu
         </Heading>
-        <Slider {...settings}>
-          {data.map((x, i) => {
-            return (
-              <Card
-                imgsrc={`${x.gambar}`}
-                price={`${x.harga}`}
-                menu={x.menu}
-                kode={x.kode}
-                key={i}
-              />
-            );
-          })}
-        </Slider>
+          <Slider {...settings}>
+            {data.map((x, i) => {
+              return (
+                <Card
+                  imgsrc={`${x.gambar}`}
+                  price={`${x.harga}`}
+                  menu={x.menu}
+                  kode={x.kode}
+                  key={i}
+                />
+              );
+            })}
+          </Slider>
       </Box>
     </Box>
   );

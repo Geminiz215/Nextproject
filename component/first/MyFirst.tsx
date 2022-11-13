@@ -1,5 +1,6 @@
 import {
   Box,
+  Button,
   Flex,
   Heading,
   Image,
@@ -8,7 +9,9 @@ import {
   Spacer,
   Text,
   UnorderedList,
+  useColorMode,
 } from "@chakra-ui/react";
+import React, { useRef } from "react";
 // import Select from "react-select";
 
 export interface mylink {
@@ -31,6 +34,13 @@ export default function MyFirst(props: mylink) {
     });
   };
 
+  const { colorMode, toggleColorMode } = useColorMode();
+
+  const ref = useRef(null);
+  React.useEffect(() => {
+    import("@lottiefiles/lottie-player");
+  });
+
   return (
     <Box
       className="first"
@@ -44,7 +54,12 @@ export default function MyFirst(props: mylink) {
       display={"flex"}
       flexDir="column"
     >
-      <Flex width={"100%"} justifyContent="center" position={"absolute"}>
+      <Flex
+        width={"100%"}
+        height="100vh"
+        justifyContent="center"
+        position={"absolute"}
+      >
         <Box width="73%" paddingLeft="5">
           <Heading
             as={"h2"}
@@ -115,7 +130,7 @@ export default function MyFirst(props: mylink) {
           <br />
           <hr />
 
-          <Flex>
+          <Flex display={["none", "none", "flex", "flex"]}>
             <Link
               onClick={() => {
                 goTo(props.galery.current);
@@ -152,14 +167,49 @@ export default function MyFirst(props: mylink) {
                 contact
               </Text>
             </Link>
+            <Spacer />
+            <Button onClick={toggleColorMode} variant="outline" mt={1}>
+              Toggle {colorMode === "light" ? "Dark" : "Light"}
+            </Button>
+          </Flex>
+          {/* <Box maxWidth={"500"}>
+              <lottie-player
+                id="firstLottie"
+                ref={ref}
+                autoplay
+                loop
+                mode="normal"
+                src="https://assets3.lottiefiles.com/packages/lf20_tll0j4bb.json"
+                style={{ width: "100%", height: "100%" }}
+              ></lottie-player>
+            </Box> */}
+          <Flex height={"60%"} flexDirection={["column","column","inherit"]} >
+            <Flex
+              justifyContent={"center"}
+              alignItems={"center"}
+              height={"100%"}
+              p="auto"
+            >
+              <Heading>hallo kids</Heading>
+            </Flex>
+            <Spacer />
+            <Box maxH={500}>
+              <lottie-player
+                id="firstLottie"
+                ref={ref}
+                autoplay
+                loop
+                mode="normal"
+                src="https://assets3.lottiefiles.com/packages/lf20_tll0j4bb.json"
+                style={{ width: "100%", height: "100%" }}
+              ></lottie-player>
+            </Box>
           </Flex>
           {/* <Box color={"black"} display="grid" height={"50vh"} alignItems={"center"}>
             <Select options={options} />
           </Box> */}
         </Box>
       </Flex>
-
-      <Spacer />
     </Box>
   );
 }
