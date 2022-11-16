@@ -168,21 +168,10 @@ export default function MyFirst(props: mylink) {
               </Text>
             </Link>
             <Spacer />
-            <Button onClick={toggleColorMode} variant="outline" mt={1}>
+            <Button onClick={toggleColorMode} variant="outline" mt={1} display={["none","inherit","inherit","inherit"]}>
               Toggle {colorMode === "light" ? "Dark" : "Light"}
             </Button>
           </Flex>
-          {/* <Box maxWidth={"500"}>
-              <lottie-player
-                id="firstLottie"
-                ref={ref}
-                autoplay
-                loop
-                mode="normal"
-                src="https://assets3.lottiefiles.com/packages/lf20_tll0j4bb.json"
-                style={{ width: "100%", height: "100%" }}
-              ></lottie-player>
-            </Box> */}
           <Flex flexDirection={["column", "column", "inherit", "inherit"]}>
             <Box maxW={"500px"}>
               <lottie-player
@@ -196,31 +185,6 @@ export default function MyFirst(props: mylink) {
               ></lottie-player>
             </Box>
           </Flex>
-          {/* <Flex height={"60%"} flexDirection={["column","column","inherit"]} >
-            <Flex
-              justifyContent={"center"}
-              alignItems={"center"}
-              height={"100%"}
-              p="auto"
-            >
-              <Heading>hallo kids</Heading>
-            </Flex>
-            <Spacer />
-            <Box maxH={500}>
-              <lottie-player
-                id="firstLottie"
-                ref={ref}
-                autoplay
-                loop
-                mode="normal"
-                src="https://assets3.lottiefiles.com/packages/lf20_tll0j4bb.json"
-                style={{ width: "100%", height: "100%" }}
-              ></lottie-player>
-            </Box>
-          </Flex> */}
-          {/* <Box color={"black"} display="grid" height={"50vh"} alignItems={"center"}>
-            <Select options={options} />
-          </Box> */}
         </Box>
       </Flex>
     </Box>

@@ -1,4 +1,5 @@
-import { Box, Flex, Image } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, Image } from "@chakra-ui/react";
+import Link from "next/link";
 
 export default function ComingSoon() {
   return (
@@ -10,8 +11,25 @@ export default function ComingSoon() {
       h={"100vh"}
       bgSize="cover"
     >
-      <Flex w={"100%"} h="100%" justifyContent={"center"} textAlign="center">
-        hallo
+      <Flex
+        w={"100%"}
+        height="100vh"
+        width={"100vw"}
+        position={"relative"}
+        justifyContent="center"
+        alignItems={"center"}
+      >
+        <Box>
+          <Heading as={"h1"} fontSize={["4xl","6xl","9xl","9xl"]}>
+            Coming Soon
+          </Heading>
+          <br />
+          <Flex justifyContent={"center"} >
+            <Link href={"/"}>
+            <Button size={"md"}>Back to Dashboard</Button>
+            </Link>
+          </Flex>
+        </Box>
       </Flex>
     </Box>
   );
