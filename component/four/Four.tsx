@@ -38,7 +38,7 @@ export default function Four() {
           untuk mengembalikan mood <br />
           kamu klik di bawah ini
         </Heading>
-        <Link>
+        <Link href="/comingsoon">
           <Button
             height={"20"}
             width="200px"
@@ -46,7 +46,9 @@ export default function Four() {
             colorScheme="teal"
             variant="outline"
           >
-            <Text textDecoration={"none"}>Read More</Text>
+            <Link href="/comingsoon">
+              <Text textDecoration={"none"}>Read More</Text>
+            </Link>
           </Button>
         </Link>
       </Flex>

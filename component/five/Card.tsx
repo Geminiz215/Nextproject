@@ -1,6 +1,10 @@
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
 
-export default function MyCard() {
+interface massage {
+  msg: string
+  img: string
+}
+export default function MyCard(props:massage) {
   return (
     <Flex
       width={["300px","300px","40%", "30%"]}
@@ -12,15 +16,13 @@ export default function MyCard() {
       p={"12"}
     >
       <Image
-        src="/images/people/1.jpeg"
+        src={`/images/people/${props.img}`}
         m="4"
         boxSize={"100px"}
         borderRadius="50"
       />
       <Text color={"white"} fontSize="sm" textAlign="center" mt={"5"}>
-        "makanannya sangat lezat dan menarik untuk dicoba selain itu Ngak ribet
-        cara mesennya dan makannya gila sih enak banget" dan juga "tempatnya
-        sangat nyaman dan makanannya enak enak"
+        {props.msg}
       </Text>
     </Flex>
   );

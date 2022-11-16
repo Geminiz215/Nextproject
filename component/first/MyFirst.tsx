@@ -130,7 +130,7 @@ export default function MyFirst(props: mylink) {
           <br />
           <hr />
 
-          <Flex display={["none", "none", "flex", "flex"]}>
+          <Flex >
             <Link
               onClick={() => {
                 goTo(props.galery.current);
@@ -183,7 +183,20 @@ export default function MyFirst(props: mylink) {
                 style={{ width: "100%", height: "100%" }}
               ></lottie-player>
             </Box> */}
-          <Flex height={"60%"} flexDirection={["column","column","inherit"]} >
+          <Flex flexDirection={["column", "column", "inherit", "inherit"]}>
+            <Box maxW={"500px"}>
+              <lottie-player
+                id="firstLottie"
+                ref={ref}
+                autoplay
+                loop
+                mode="normal"
+                src="https://assets3.lottiefiles.com/packages/lf20_tll0j4bb.json"
+                style={{ width: "100%", height: "100%" }}
+              ></lottie-player>
+            </Box>
+          </Flex>
+          {/* <Flex height={"60%"} flexDirection={["column","column","inherit"]} >
             <Flex
               justifyContent={"center"}
               alignItems={"center"}
@@ -204,7 +217,7 @@ export default function MyFirst(props: mylink) {
                 style={{ width: "100%", height: "100%" }}
               ></lottie-player>
             </Box>
-          </Flex>
+          </Flex> */}
           {/* <Box color={"black"} display="grid" height={"50vh"} alignItems={"center"}>
             <Select options={options} />
           </Box> */}
