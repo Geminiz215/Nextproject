@@ -20,7 +20,7 @@ export default function ComingSoon() {
         alignItems={"center"}
       >
         <Box>
-          <Heading as={"h1"} fontSize={["4xl","6xl","9xl","9xl"]}>
+          <Heading as={"h1"} fontSize={["4xl","6xl","9xl","9xl"]} color="white">
             Coming Soon
           </Heading>
           <br />
